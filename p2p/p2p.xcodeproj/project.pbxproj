@@ -15,6 +15,7 @@
 		1A0B00DE1C894ED60091FF8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B00DC1C894ED60091FF8A /* LaunchScreen.storyboard */; };
 		1A0B00E91C894ED70091FF8A /* p2pTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B00E81C894ED70091FF8A /* p2pTests.m */; };
 		1A0B00F41C894ED70091FF8A /* p2pUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B00F31C894ED70091FF8A /* p2pUITests.m */; };
+		1A0B01031C894FC50091FF8A /* subnavigato.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B01021C894FC50091FF8A /* subnavigato.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1A0B00EF1C894ED70091FF8A /* p2pUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = p2pUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0B00F31C894ED70091FF8A /* p2pUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = p2pUITests.m; sourceTree = "<group>"; };
 		1A0B00F51C894ED70091FF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A0B01011C894FC50091FF8A /* subnavigato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subnavigato.h; sourceTree = "<group>"; };
+		1A0B01021C894FC50091FF8A /* subnavigato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subnavigato.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				1A0B00D11C894ED60091FF8A /* AppDelegate.h */,
 				1A0B00D21C894ED60091FF8A /* AppDelegate.m */,
+				1A0B01011C894FC50091FF8A /* subnavigato.h */,
+				1A0B01021C894FC50091FF8A /* subnavigato.m */,
 				1A0B00D41C894ED60091FF8A /* ViewController.h */,
 				1A0B00D51C894ED60091FF8A /* ViewController.m */,
 				1A0B00D71C894ED60091FF8A /* Main.storyboard */,
@@ -276,6 +281,7 @@
 				1A0B00D61C894ED60091FF8A /* ViewController.m in Sources */,
 				1A0B00D31C894ED60091FF8A /* AppDelegate.m in Sources */,
 				1A0B00D01C894ED60091FF8A /* main.m in Sources */,
+				1A0B01031C894FC50091FF8A /* subnavigato.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
